@@ -1,0 +1,116 @@
+@font-face {font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1480075417773'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1480075417773#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1480075417773') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1480075417773') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1480075417773#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.footer li {border-bottom: 1px solid #303030;box-shadow: 0 1px 0 0 #191919}
+.footer h2 {color: #eee}
+.footer a {color: #ccc}
+.footer {width: 93%;padding:0 3.5%; color:#ccc;}
+.footer h1 {border-bottom: 1px solid #eee}
+.header{height: 3.2rem;line-height: 3.2rem;position: fixed;left: 0;top: 0;z-index:999;background:#fff;-webkit-box-shadow: 1px 0 1rem 0 #ccc;-moz-box-shadow: 1px 0 1rem 0 #ccc;-ms-box-shadow: 1px 0 1rem 0 #ccc;box-shadow: 1px 0 1rem 0 #ccc;}
+.header .iconfont {font-size: 1.2rem;right: 6%;top: 0}
+.header #exit {left:5%; display: none;width: 5%;}
+h1 img{width: 33%;height: 1.96rem;margin-top: 0.71rem}
+.header ul {height: 4.6rem;padding-top: 1.4rem;background: url(../images/header.png);background-size: 100% 100%;right: 0;top: 2.57rem}
+.header ul li{width: 20%;line-height: 4.3rem;font-size: 0.85rem}
+.wrap .page {height: 46.07rem;}
+.wrap .page1 {background: url(../images/about-bg-1920x1200.jpg);background-size: 100% 100%}
+.wrap .page2 {background: url(../images/about2.jpg);background-size: 100% 100%}
+.wrap .page3 {background: url(../images/about3.jpg);background-size: 100% 100%}
+.wrap .page4 {background: url(../images/about4.jpg);background-size: 100% 100%}
+.wrap .page5 {background: url(../images/about5.jpg);background-size: 100% 100%}
+.wrap .page1 .Horizontalverticalcenter {font-size: 2rem;line-height: 1.5}
+.wrap .page1 .Horizontalverticalcenter .iconfont {font-size: 2rem}
+.wrap .page1 .Horizontalverticalcenter .eng {font-size: 1.58rem}
+.wrap .page1 .Horizontalverticalcenter .log img {width:39%;}
+.wrap .page1 .Horizontalverticalcenter p:last-child {width: 60%;text-align: right;margin: 0 auto;}
+.wrap .page2 .Horizontalverticalcentert, .Horizontalverticalcenter, .Horizontalverticalcenterh, .Horizontalverticalcenterf, .Horizontalverticalcenterfive, .server {width: 93%;}
+.wrap .page2 ul li, .wrap .page2 ul li img{height: 7.22rem;}
+.wrap .page2 ul li:nth-child(1), .wrap .page2 ul li:nth-child(4), .wrap .page2 ul li:nth-child(5), .wrap .page2 ul li:nth-child(8) {width: 40%;}
+.wrap .page2 ul li:nth-child(2), .wrap .page2 ul li:nth-child(3), .wrap .page2 ul li:nth-child(6), .wrap .page2 ul li:nth-child(7) {width: 58%;} 
+.wrap .page2 ul li:nth-child(1), .wrap .page2 ul li:nth-child(3), .wrap .page2 ul li:nth-child(5), .wrap .page2 ul li:nth-child(7){margin-right: 2%;}
+.wrap .page2 ul li{margin-bottom: 0.36rem}
+.wrap .page2 p a {line-height: 2.92rem;background: #e60012;color: #fff;border-radius: 5px}
+.wrap .page2 p a{font-size: 1rem;}
+.wrap .page3 h2, .wrap .page4 h2, .wrap .page5 h2 {font-size: 2rem;margin: 0 auto;width: 51%;background: url(../images/h2.png) center center no-repeat;background-size: 100% 100%;line-height: 3.2rem}
+.wrap .page3 p, .wrap .page4 p, .wrap .page5 p {font-size: 0.92rem;line-height: 2.84rem;padding-bottom: 2.49rem}
+.wrap .page3 div a:nth-child(1), .wrap .page3 div a:nth-child(2){top: 0}
+.wrap .page3 div a:nth-child(1), .wrap .page3 div a:nth-child(4) {left: 14%}
+.wrap .page3 div a:nth-child(2), .wrap .page3 div a:nth-child(5) {left: 52%}
+.wrap .page3 div a:nth-child(4), .wrap .page3 div a:nth-child(5) {top: 15.89rem}
+.wrap .page3 div a:nth-child(3){top: 8rem;left:33%;}
+.wrap .page3 div a{width: 35%;}
+.wrap .page4 dl {margin-bottom: 0.53rem;background: rgba(255, 255, 255, 0.7);}
+.wrap .page4 dl dt {width: 26%;height: 5.01rem;overflow: hidden}
+.wrap .page4 dl dd {width: 71%;padding-left: 3%;line-height: 1.56rem;}
+.wrap .page4 dl dd h3, .wrap .page4 dl dd h4 {font-size: 0.85rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.wrap .page4 dl dd span {font-size: 0.63rem;}
+.wrap .page4 dl dd a {font-size: 0.63rem;float: right;}
+.wrap .page5 .help {height: 9.28rem;margin-bottom: 0.53rem;border-radius: 3px;box-shadow: 1px 0 0.5rem 0 #ccc;}
+.wrap .page5 .help h3, .wrap .page5 .help h4 {font-size: 1.14rem;line-height:1.85rem;}
+.wrap .page5 .help h3 span {display: inline-block;}
+.wrap .page5 .indexf {padding-left: 6%}
+.server {margin: 0.71rem auto 1.42rem}
+.server .help {height: 8.53rem;border-radius: 3px;margin-bottom: 0.71rem}
+.contactus, .serverD, .newD, .NEWL, .works {width: 93%;padding: 0.78rem 3.5% 2.56rem}
+.contactus h2 {height: 2.67rem;background: #fff;border-radius: 3px;line-height: 2.67rem;font-size: 1.14rem;font-weight: bolder;margin-bottom: 0.36rem}
+.contactus p {background: #fff;margin-bottom: 1px;line-height: 2.49rem;font-size: 0.85rem}
+.contactus p .iconfont {font-size: 1.21rem}
+#divMap{width:100%;height:13.69rem;margin-top:0.75rem;-webkit-box-shadow: 0 0 2px #ccc;-moz-box-shadow: 0 0 2px #ccc;-ms-box-shadow: 0 0 2px #ccc;box-shadow: 0 0 2px #ccc;}
+.abus dl {padding: 1rem 0;margin: 0 auto;border-bottom: 1px solid #eee}
+.abus dl dt {width: 20%;padding-left: 9%}
+.abus dl dt img {border-radius: 3px;border: 1px solid #aaa;}
+.abus dl dd {width: 63%;padding-left: 4%}
+.abus dl dd h2 {font-size: 1.28rem;color:#e60012;margin-top: 0.5rem}
+.abus dl dd p {font-size: 0.64rem;line-height: 1.42rem}
+.abus .middleon, .abus .middletw, .abus .middleth {height: 19.09rem;width: 100%;text-align: center}
+.Hori {color: #fff}
+.abus .middleon img, .abus .middletw img, .abus .middleth img {width: 43%;}
+.abus .middleon p, .abus .middletw p, .abus .middleth p {font-size: 0.85rem;line-height: 2}
+.serverheader {margin: 0.71rem 0;line-height:2rem;font-size: 1.35rem;-webkit-box-shadow: 0 1px 0 0 #ccc;-moz-box-shadow: 0 1px 0 0 #ccc;-ms-box-shadow: 0 1px 0 0 #ccc;box-shadow: 0 1px 0 0 #ccc;}
+.serverheader span {font-weight: bolder;border-bottom: 2px solid #e60012;display: inline-block;height: 2rem}
+.newD {text-align: justify;color: #666;margin-bottom:1.5rem;line-height: 1.5}
+.newD img, .worksD img {max-width: 100%}
+.newsnav, .worksD {width: 88%;margin: 3.73rem auto 1.5rem;}
+.newsnav a {width: 32%;height: 2.88rem;line-height: 2.88rem;background: #e60012;color: #fff;border-radius: 5px}
+.newsnav a:nth-child(2) {margin: 0 2%;}
+.newD .time {line-height: 1.5rem;color: #333;}
+.newD h2 {font-size: 1.14rem;font-weight: bolder;color: #e60012}
+.worksD h2 {font-size:1.14rem;line-height: 2rem;margin-bottom:1rem;background: url(../images/line.png) 100% 100% no-repeat;background-size: 100% 5%;}
+.worksD {text-align: justify;line-height: 1.5}
+.NEWL dl {width: 98%;padding: 2.5% 0.2rem;background: #fff;margin-bottom: 0.36rem}
+.NEWL dl dt{width: 35%;height: 6.22rem;}
+.NEWL dl dd, .works dl dd {line-height:1.5;color:#666;padding-left: 2%;height: 6.22rem; width: 63%;text-align: justify;position: relative;}
+.NEWL dl dd h2, .works dl dd h2 {color: #e60012;font-weight: bold;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;font-size: 0.92rem}
+.NEWL dl dd p, .works dl dd p{font-size: 0.64rem; display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;overflow: hidden;}
+.NEWL dl dd div, .works dl dd div {color:#666;width:98%;position: absolute;bottom: 0;left: 2%;font-size: 0.64rem}
+.NEWL dl dd div a {float: right;color:#666;}
+.active {background: #e60012;color: #fff;}
+td{-webkit-box-shadow: 1px 0 1px 0px #ccc;-moz-box-shadow: 1px 0 1px 0px #ccc;-ms-box-shadow: 1px 0 1px 0px #ccc;box-shadow: 1px 0 1px 0px #ccc;}
+.works dl {height: 7.86rem;background: #fff;margin-bottom: 0.64rem}
+.works dl dt {width: 49%;height: 7.86rem;}
+.works dl dd {width: 47%;height: 6.86rem;margin: 0.5rem 0;}
+.works dl dd div a {margin-right:1%;background: #e60012;color: #fff;font-size: 0.57rem;padding: 0.25rem 6%;border-radius: 3px}
+.works dl dd span {margin-top:0.21rem; font-size: 0.64rem;float: right;}
+.wrap .page5 img, .header .iconfont, .header ul, .wrap .page3 div a {
+  position: absolute;}
+.NEWL dl dd h2, .works dl dd h2, .works dl, .works dl dt img, .NEWL dl dt img, .Horiz, .Hori, .Hor, .abus dl dt img, .server img, .wrap .page5 .help, .wrap .page5 .help img, .wrap .page4 dl dd h3, .wrap .page4 dl dd h4, .wrap .page4 dl dt img, .wrap .page3 div a img, .wrap .page2 p, .header, h1, .wrap .page, .header ul, .wrap .page2 ul li img{
+  width: 100%;}
+.newsnav a, .serverheader, .contactus h2, .wrap .page5 p, .wrap .page5 h2, .wrap .page4 p, .wrap .page4 h2, .wrap .page3 p, .wrap .page3 h2, h1, .header ul li, .wrap .page2 p, .wrap .page1 .Horizontalverticalcenter{
+  text-align: center;}
+.works dl dd a, .works dl dt, .works dl dd, .NEWL dl dt, .NEWL dl dd, .newsnav a, .abus dl dt, .abus dl dd, .wrap .page4 dl dt, .wrap .page4 dl dd, .header ul li, .wrap .page2 .Horizontalverticalcentert ul li {
+  float: left;}
+.header ul, .anchorTL, .anchorTR {
+  display: none;}
+.wrap .page2 p a {
+  display: block;}

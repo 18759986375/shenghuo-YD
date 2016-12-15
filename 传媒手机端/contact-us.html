@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>圣火文化传媒</title>
+	<meta name="keywords" content=", ">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<script type="text/javascript" src="js/zepto.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+		<a href="#" onClick="javascript:history.back(-1);"  class="iconfont" id="exit">&#xe62f;</a>
+		<span class="iconfont" id="navw">&#xe605;</span>
+		<ul class="clearfix" id="nav">
+			<li><a href="index.html">首页</a></li>
+			<li><a href="works.html">作品</a></li>
+			<li><a href="us-server.html">我们的服务</a></li>
+			<li><a href="new-list.html">新闻动态</a></li>
+			<li><a href="about-us.html">关于我们</a></li>
+		</ul>
+	</div>
+<style>
+	body{background: #eee}
+</style>
+		<img src="images/air.jpg" alt="" style="width:100%;margin-top:3.2rem">
+	<div class="contactus">
+		<h2>联系我们</h2>
+		<p>&nbsp <em class="iconfont">&#xe600; </em>13834044846 张经理</p>
+		<p>&nbsp <em class="iconfont">&#xe600; </em>15210926672 董经理</p>
+		<p>&nbsp <em class="iconfont">&#xf0007; </em>010-85664788</p>
+		<p>&nbsp <em class="iconfont">&#xe643; </em>949699785@qq.com</p>
+		<p>&nbsp <em class="iconfont">&#xe61c; </em>media.sunfire.com.cn</p>
+		<p>&nbsp <em class="iconfont">&#xe633; </em>北京市朝阳区十里河建材文化街35号龙凤二层</p>
+		<div id="divMap"></div>
+	</div>
+	<div class="footer" style="background:#282828;position:relative">
+		<h1><img src="images/logo3.png" alt=""></h1>
+		<h2 style="font-size:1.14rem;line-height:2.35rem;margin-top:0.57rem">招贤纳士</h2>
+		<ul style="line-height:3.02rem;width:60%">
+			<li><span class="iconfont">&#xe7a9;</span> <a href="javascript:void(0)">诚聘英才 丨 人才自荐</a></li>
+			<li><span class="iconfont">&#xe643;</span> <a href="javascript:void(0)">shunjian90@126.com</a></li>
+		</ul>
+		<img src="images/erweima.png" alt="" style="position:absolute;right:6%;top:5rem;width:27%;">
+		<h2 style="font-size:1.14rem;line-height:2.35rem;">联系我们</h2>
+		<ul style="line-height:2.31rem">
+			<li style="line-height:2.1rem"><span class="iconfont">&#xe625;</span> <a href="javascript:void(0)">手机：Ms.Zhang 13651354846</a></li>
+			<li style="line-height:2.1rem"><span class="iconfont">&#xe625;</span> <a href="javascript:void(0)">手机：Mr.Dong 15210926672</a></li>
+			<li><span class="iconfont">&#xe731;</span> <a href="javascript:void(0)">传真：010-63830150</a></li>
+			<li><span class="iconfont">&#xe619;</span> <a href="javascript:void(0)">邮编：100122</a></li>
+			<li><span class="iconfont">&#xe632;</span> <a href="contact-us.html">地址：北京市朝阳区十里河建材文化街35号龙凤二层</a></li>
+		</ul>
+		<p style="text-align:center;line-height:3.09rem;font-size:0.71rem">京ICP备11021590号-4 CopyRight 2005-2015 </p>
+	</div>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.2"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/library/MapWrapper/1.2/src/MapWrapper.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=n5FAiCDFGf5LhGl3rsNpF78mvKL5B9Mc"></script>
+	<script>
+	$(".Singlepagetop").css({"padding-top":"80px"});
+	// 百度地图API功能
+    var map = new BMap.Map("divMap");
+    map.centerAndZoom(new BMap.Point(116.4799, 39.8639), 18);
+    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    var top_right_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL}); //右上角，仅包含平移和缩放按钮
+    /*缩放控件type有四种类型:
+    BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；
+    BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；
+    BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮*/
+        map.addControl(top_left_control);        
+        map.addControl(top_left_navigation);     
+        map.addControl(top_right_navigation);    
+    //可以转化gps坐标
+    var mapWforGPS = new BMapLib.MapWrapper(map, BMapLib.COORD_TYPE_GPS); 
+    //可以转化google坐标
+    var mapWforGoogle = new BMapLib.MapWrapper(map, BMapLib.COORD_TYPE_GOOGLE); 
+    for(var i = 0; i < 1; i++){
+        //添加gps坐标mkr
+        var gpsMkr = new BMap.Marker(new BMap.Point(/*GPS坐标*/116.46738397, 39.85735908));
+        (function(i){
+            gpsMkr.addEventListener("click", function(){
+                var strXY = this.getPosition().lng.toFixed(3) + ", " + this.getPosition().lat.toFixed(3);
+                var infoWin = new BMap.InfoWindow("北京市朝阳区十里河大羊坊路<br />龙凤之家家具城2楼文化传媒");
+                this.openInfoWindow(infoWin);
+            });
+        })(i);
+        mapWforGPS.addOverlay(gpsMkr);
+    }
+	</script>
+	<script>
+	var exi = document.getElementById("exit");
+	exi.style.display = 'block';
+	</script>
+</body>
+</html>
